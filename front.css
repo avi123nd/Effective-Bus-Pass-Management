@@ -1,0 +1,166 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* background-color: #0fd73a; */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  /* background-color: #9316e7; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #333;
+  color: #fffbfb;
+  padding: 10px 0;
+}
+
+header .logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+}
+
+#hero {
+   background-color: #9316e7;
+
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+.herocon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: block;
+  width: 230px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+#features {
+  background-color: #fff;
+  padding: 80px;  
+  text-align: center;
+}
+.features{
+  display: flex;
+  /* flex-direction: ; */
+}
+.feature {
+  margin-bottom: 40px;
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#how-it-works {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+  text-align: center;
+}
+.howit{
+  display: flex;
+  flex-direction: column;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.step {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+#testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cta{
+  display: flex;
+  /* background-color: #333; */
+ padding: 20px;
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer{
+ .footer-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: ; */
+}}

@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Management System</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(101deg, #f09433, #bc1888); /* Instagram-like gradient background */
+            color: #1c1a1a; /* White text for better contrast */
+        
+            .card {
+                background:rgb(252, 122, 141); /* Gradient background for card */
+                color: #ffffff; /* White text for better contrast */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow to cards */
+            transition: transform 0.2s;
+            
+        }
+        
+        .card:hover {
+            transform: scale(1.05); /* Slightly enlarge cards on hover */
+        }
+        .card-title {
+            color: #1a73d1; /* Card title color */
+        }
+        .card-body {
+            background: none; /* Ensure no background override */
+        }
+    
+        .navbar {
+            background: linear-gradient(101deg, #1c1cc3, #2e2e2e); /* Gradient background for navbar */
+        }
+        .navbar a {
+            color: #ffffff !important; /* White text for navbar links */
+    }
+    
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-light" style="background-color: #0a0a0b;">
+        <!-- Navbar content -->
+      <h2>
+        <a class="navbar-brand" href="#">Home</a></h2>
+        <div class="ml-auto">
+            <a class="navbar-brand" href="login.php">&#8592; LogOut</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <!-- Content: Cards Section -->
+     <div class="card-center">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+        <div class="card-deck">
+            <!-- Pass Details Card -->
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Pass Details</h5>
+                    <p class="card-text">View details of your bus pass.</p>
+                    <a href="Profile.php" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+            <!-- Renewal Pass Card -->
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Renewal Pass</h5>
+                    <p class="card-text">Renew your bus pass for the upcoming period.</p>
+                    <a href="busdetails.html" class="btn btn-primary">Renew Now</a>
+                </div>
+            </div>
+         </div>
+     </div>
+</div>
+</div>
+
+
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
