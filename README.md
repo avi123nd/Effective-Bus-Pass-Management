@@ -5,4 +5,3 @@ In my device I don't have a license key for accessing php admin,so i used XAMPP 
 So you can learn about XAMPP Server by using oneline resources.
 
 Thank you!!!
-Aravind Balam
